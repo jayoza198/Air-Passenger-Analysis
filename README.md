@@ -12,5 +12,19 @@ Before running the code, ensure that you have the following libraries installed:
 
 You can install the libraries using the following command:
 
-```shell
-pip install pandas matplotlib darts
+
+``` pip install pandas matplotlib darts ```
+
+
+Code Explanation
+
+The code performs the following steps:
+
+1. Importing the required libraries and modules.
+2. Loading and visualizing the AirPassengers dataset.
+3. Performing exploratory data analysis (EDA) to compute basic statistics and visualize the time series.
+4. Splitting the data into a training set and a validation set.
+5. Training the Exponential Smoothing model, performing a forecast, and evaluating the forecast using Mean Absolute Percentage Error (MAPE).
+6. Training the Prophet model, performing a forecast, and evaluating the forecast using MAPE.
+7. Training the ARIMA model, performing a forecast, and evaluating the forecast using MAPE.
+8. Visualizing the forecasts and actual values for each model.
